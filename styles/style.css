@@ -1,0 +1,149 @@
+body {
+  background-color: #fff;
+  font-family: Yekan;
+}
+::selection{
+  background-color: #f3808b;
+  color: #fff;
+}
+.background {
+  background-color: #fff;
+}
+@font-face {
+  font-family: iransans;
+  src: url(../fonts/Iranian\ Sans.ttf);
+}
+.iransans {
+  font-family: iransans;
+}
+@font-face {
+  font-family: Yekan;
+  src: url(../fonts/Yekan\ Bakh\ Regular.ttf);
+}
+.Yekan {
+  font-family: Yekan;
+}
+.form-control:focus{
+  box-shadow: none;
+  outline: 0;
+  background-color: #ffffff;
+  border: 1px solid #ecebeb;
+}
+.tex-justify {
+  text-align: justify;
+}
+.navbar-toggler {
+  border: none;
+  box-shadow: 0;
+  outline: 0;
+}
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+  outline: 0;
+}
+.dropdown-item:link {
+  background-color: #ffffff00;
+}
+@media screen and (min-width: 1200px) {
+  .dropdown-item:hover {
+    transform: translateX(-5px);
+    background-color: #ffffff00;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  .nav-item:hover {
+    border-bottom: 1.5px solid black;
+    transition: all 1s;
+  }
+}
+.addres-hover:hover{
+  border-bottom: 1.5px solid black;
+  transition: all 1s;
+}
+@media screen and (max-width: 1200px) {
+  .dropdown-item:hover {
+    transform: translateX(-5px);
+    background-color: #fff;
+    transition: all 0.3s;
+  }
+  .nav-item:hover {
+    transform: translateX(-5px);
+    transition: all 0.3s;
+  }
+}
+.dropdown-menu {
+  border: none;
+}
+.title {
+  transform: scale(1.05);
+}
+.title:hover {
+  border-bottom: 1.5px solid black;
+}
+.discount-animation {
+  animation: infinite 1s discount-animation;
+}
+@keyframes discount-animation {
+  100% {
+    transform: scale(1.1);
+  }
+}
+.animation {
+  animation: infinite 0.5s animation;
+}
+.animation:hover {
+  border-bottom: 1px solid black;
+  transition: all 0.5s;
+}
+@keyframes animation {
+  100% {
+    transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 576px) {
+  .rotate-animation {
+    transform: rotate(-18deg);
+  }
+}
+@media screen and (min-width: 576px) {
+  .rotate-animation {
+    transform: rotate(-21deg);
+  }
+}
+.border-rounded {
+  border-radius: 25px 75px;
+}
+.discount-border {
+  border: 2.5px solid #eee;
+}
+.accordion-button:focus{
+  border-color: white;
+  outline: 0;
+  box-shadow: none;
+}
+.accordion-button{
+  background-color: #fff;
+}
+.accordion-body{
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #f1f1f136;
+  box-shadow: none;
+}
+@media screen and (max-width: 992px) {
+  .display-none-with-lg{
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .display-none-with-md{
+    display: none;
+  }
+}
+
+
+
